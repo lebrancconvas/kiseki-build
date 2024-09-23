@@ -8,6 +8,7 @@ message Game {
   repeated MasterQuartz master_quartz = 4;
   repeated Quartz quartz = 5;
   repeated Art arts = 6;
+  repeated Craft crafts = 7;
 }
 
 message Character {
@@ -112,4 +113,8 @@ message ElementValue {
   uint32 time = 5;
   uint32 space = 6;
   uint32 mirage = 7;
+}
+
+message Craft {
+  
 }
