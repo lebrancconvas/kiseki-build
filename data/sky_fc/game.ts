@@ -13,7 +13,28 @@ export const Characters = [
     mov: 4,
     spd: Math.floor(0.0025*16*17+10),
     lines: [
-      
+
     ]
+  }),
+  Character.create({
+    name: 'Joshua Bright',
+  }),
+  Character.create({
+    name: 'Scherazard Harvey',
+  }),
+  Character.create({
+    name: 'Olivier Lenheim',
+  }),
+  Character.create({
+    name: 'Agate Crosner',
+  }),
+  Character.create({
+    name: 'Kloe Rinz',
+  }),
+  Character.create({
+    name: 'Tita Russell',
+  }),
+  Character.create({
+    name: 'Zin Vathek',
   })
 ] as Character[];
